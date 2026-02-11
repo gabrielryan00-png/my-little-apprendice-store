@@ -150,7 +150,7 @@ async def responder_callback(update: Update, context: ContextTypes.DEFAULT_TYPE)
     )
 
 def main():
-    TOKEN = "8510659897:AAFV22YWKpCKRM3kmoZJ5bMg1BiKYhYv6Ko"
+    TOKEN = "insert your token"
     app = Application.builder().token(TOKEN).build()
 
     app.add_handler(CommandHandler("start", start))
