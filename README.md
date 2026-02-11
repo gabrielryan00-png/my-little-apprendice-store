@@ -24,16 +24,48 @@ O objetivo é automatizar respostas frequentes e orientar o paciente sobre horá
 
 ---
 
-## 🧰 Requisitos
-
+## Requisitos
 - Python 3.10+ (recomendado)
 - Telegram Bot Token (via @BotFather)
 
 ---
 
-## 🚀 Como rodar
-
+## Como rodar
 ### 1) Clonar o projeto
 ```bash
 git clone https://github.com/SEU_USUARIO/NOME_DO_REPO.git
 cd NOME_DO_REPO
+Segurança (importante)
+
+Nunca suba o token no código.
+
+Use sempre variável de ambiente (BOT_TOKEN).
+
+Observação
+Este bot é informativo e não realiza diagnóstico nem substitui atendimento médico.
+Licença
+
+Este projeto pode ser usado como base educacional e protótipo.
+
+
+Salve no nano:
+- CTRL + O
+- Enter
+- CTRL + X
+
+---
+
+## 2) Adicione um `.gitignore` (muito importante)
+Crie:
+
+```bash
+nano .gitignore
+
+
+Cole isso:
+
+venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
